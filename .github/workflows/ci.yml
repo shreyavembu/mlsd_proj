@@ -42,4 +42,4 @@ jobs:
     - name: Build Docker Image
       run: |
         docker build -t reuters-classifier:latest .
-        print("✅ CD Check Passed: Docker image successfully compiled without errors!")
+        echo "✅ CD Check Passed: Docker image successfully compiled without errors!"
